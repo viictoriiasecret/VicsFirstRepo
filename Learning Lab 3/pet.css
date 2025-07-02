@@ -1,0 +1,123 @@
+.grid-container {
+  display: grid; /* if not flex attributes wont take affect */
+ 
+  grid-template-rows: 12vh 20vh 20vh; 
+  grid-template-columns: 29vw 20vw 24vw;
+  border: 5px solid rgb(232, 16, 160);
+  border-radius: 20px;
+  padding: 20px;
+  
+ 
+  width: fit-content; 
+  margin: auto;
+  background-image: url(https://tinyurl.com/bakcgon);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.main-title {
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  /* center justify*/
+  justify-content: bottom ;
+  font-weight:bolder;
+  color:#510737;
+  font-size: larger
+  
+}
+
+.image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-image {
+  width: 150px;
+  height: 100px;
+  object-fit: fill; /* to fit the cell*/
+  border: 5px solid #510737;;
+  border-radius: 30px;
+
+}
+
+
+.column1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color:#4b0732;
+  font-weight: bold;
+  font-size: 17px;
+
+}
+
+.column2 {
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-weight: bold;
+  color:#4b0732;
+}
+.id{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-weight: bold;
+  color:#4b0732;
+}
+
+.state {
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-weight: bold ;
+  color:#4b0732;
+}
+
+.line1 {
+  grid-column-start: 1; 
+  grid-column-end: 4; 
+
+  grid-row-start: 1;
+  grid-row-end: 2; 
+    
+  align-self: end;    
+  
+  width: 100%;
+  
+  border: 1px solid #4b0732;;
+}
+
+.line2 {
+  grid-column-start: 1; 
+  grid-column-end: 4;
+
+  grid-row-start: 2.5;
+  grid-row-end: 4; 
+
+ /* just before row with ID and State */
+ align-self: end;    
+
+  width: 100%;
+  border: 1px solid #4b0732;;
+}
