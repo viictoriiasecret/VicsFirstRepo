@@ -1,0 +1,32 @@
+h1 {
+    color: pink
+}
+h2 {
+    color:magenta
+}
+#styling-ul {
+    color : rgb(211, 12, 154)
+}
+#paragraph { /* had to make id for the ones with hasthags*/
+    text-align: center
+}
+h2 + p {
+    color:fuchsia
+
+} /* whenever we see an h2 and a paragrah right after do this  */
+
+a:hover {
+    color:rgb(0, 0, 0)
+}
+li::marker{
+    color:hotpink
+}
+a[href]{
+    color:deeppink
+}
+a.sticky {
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    padding: 5px;
+}
