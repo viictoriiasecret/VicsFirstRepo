@@ -10,7 +10,7 @@ function shoppingcart(selection) {
     let quantity = {jacket: 3 , shirt: 4, necklace: 5, jeans: 7}  //quantity 
     
     let total = 0 
-    // let newtotal =0
+    
     
     for(item in selection){
     
