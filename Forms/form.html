@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+    <h1> >How Well Do You Know Your HTML?></h1>
+    <form id="quiz-form">
+        <label for ="username" >Name: </label>
+        <input type = "text" id=" username" name = "username" placeholder="Jane Doe">
+            <!--type ="text is a text box 
+            id = "username" uniqe identitfier 
+            name = "username " is what is recorded -->
+        <br><br>
+        
+        <!-- checkbox input with label-->
+         <p id= "q0"> Q1: HTML Stands for:</p>
+        <label >Hypertext Markdown Language</label>   
+        <input type = "radio"  name = "q0" value="Hypertext Markdown Language">
+        <br><br> 
+        
+        <label >Hypertext Markup Language</label>   
+        <input type = "radio"  name = "q0" value = "Hypertext Markup Language">
+        <br><br> 
+        
+        <label >Hyperspeed Markdown Language </label>   
+        <input type = "radio"  name = "q0" value = "Hyperspeed Markdown Language">
+        <br><br> 
+
+        <p id= "q1"> Q2: What are some files you would use with an HTML file? </p>
+        <label > a js file </label>   
+        <input type = "checkbox"  name = "q1" value = "a js file">
+        <br><br> 
+        
+        <label > a css file </label>   
+        <input type = "checkbox"  name = "q1" value = "a css file">
+        <br><br> 
+        
+        <label >None of the above  </label>   
+        <input type = "radio"  name = "q1" value = "None of the above">
+        <br><br> 
+
+        <p id= "q2"> Q3: Is JavaScript only for web development? (true or false) </p>
+        <label >  </label>   
+        <input type = "text"  name = "q2" placeholder="true or false">
+        <br><br> 
+
+        <p id= "q3"> Q4: How many different commands in HTML?  </p>
+        <label >  </label>   
+        <input type = "number"  name = "q3" >
+        <br><br> 
+        
+       
+        
+        
+        <!-- submit using button-->
+         <button type= "submit"> Submit Test!</button>
+         <br><br> 
+
+        
+    </form>
+    <div id ="results"></div>
+    <script src="form.js"></script>
+</body>
+</body>
+</html>
